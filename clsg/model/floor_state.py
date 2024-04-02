@@ -1,10 +1,12 @@
-# FloorStage is SingleFloorStage|MultiFloorStage
+# FloorStage
 
 class SingleFloorStage:
     pass
 
 class MultiFloorStage:
     pass
+
+FloorStage = SingleFloorStage | MultiFloorStage
 
 class FloorState:
     pass
